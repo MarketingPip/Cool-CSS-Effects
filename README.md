@@ -1,8 +1,9 @@
 # Cool-CSS-Effects
 
+**Zoom In & Out**
 
-                   
-@keyframes fadeIn { 
+```css
+@keyframes ZoomInAndOut { 
   to { transform: scale(0.0); } 
 }
 
@@ -14,11 +15,13 @@ p {
   color: #555;
   text-align: center;
   
-  animation: fadeIn 5s infinite alternate;
+  animation: ZoomInAndOut 5s infinite alternate;
 }
+```
 
-
+```html
 <p>Cool Bouncy Text </p>
+```
 
 
 
@@ -26,10 +29,12 @@ p {
 ---
 
 
-Falling Element
+**Falling Element**
+
+```css
 
 
-@keyframes fadeIn { 
+@keyframes Falling { 
   to { transform: scale(0.0); } 
 }
 
@@ -39,7 +44,7 @@ Falling Element
     background-color: #e4708a;
   width: 100vw;
   height: 100vh;
-  animation: fadeIn 2.4s infinite;
+  animation: Falling 2.4s infinite;
 }
 
 
@@ -52,9 +57,12 @@ p {
   
 
 }
+```
 
 
 
-  <div class="square">
+ ```html
+ <div class="square">
     <p>I feel like I am falling</p>
   </div>
+```
