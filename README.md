@@ -153,3 +153,25 @@ p {
 ```
 
 
+
+**Fade Out**
+
+```css
+
+@keyframes fadeOut  { 
+  to { opacity: 0; } 
+}
+
+p {
+  position: relative;
+  top: 100px;
+  
+  font: italic bold 5em/1 Bodoni, serif;
+  color: #555;
+  text-align: center;
+  
+  animation: fadeOut 1s  ease-in-out 3s;
+  animation-fill-mode: forwards;  
+}
+
+```
